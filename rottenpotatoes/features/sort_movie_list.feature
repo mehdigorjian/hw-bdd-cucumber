@@ -31,5 +31,5 @@ Scenario: sort movies alphabetically
 Scenario: sort movies in increasing order of release date
   When I follow "Release Date"
   # your steps here
-  Then I should see "Te Terminator" before "Chicken Run"
+  Then I should see "The Terminator" before "Chicken Run"
   And I should see "The Incredibles" before "The Help"
